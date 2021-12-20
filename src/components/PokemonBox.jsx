@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Card, ProgressBar } from 'react-bootstrap';
 import './pokemonbox.css';
+
+import sample1 from './images/sun.mp4';
     
 
 
@@ -8,7 +10,7 @@ import './pokemonbox.css';
 function PokemonBox (props) {
     return(
         <div>
-       
+       <video id='background-video' autoPlay loop muted><source src={sample1} type='video/mp4'/></video>
       
         <div class="wrapper">
             

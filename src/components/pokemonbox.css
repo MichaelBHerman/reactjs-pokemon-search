@@ -24,8 +24,8 @@
 
 .wrapper .left{
   width: 35%;
-  background: linear-gradient(to right,  rgb(197, 18, 18) 0%,
-  rgba(77, 1, 1, 0.452) 100%);
+  background: linear-gradient(to right,  rgb(86, 151, 226) 0%,
+  rgba(236, 232, 232, 0.452) 100%);
   padding: 30px 25px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -112,4 +112,15 @@
   color :#fff;
   display: block;
   font-size: 18px;
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
 }
