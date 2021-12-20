@@ -3,6 +3,7 @@ import Search from '../components/Search';
 import { fetchPokemon } from '../services/getPokemon';
 import PokemonData from '../components/PokemonData';
 import { Spinner, Alert } from 'react-bootstrap';
+import PokemonBox from '../components/PokemonBox';
 
 const spinnerStyle = {
   width: '10rem',
@@ -56,11 +57,15 @@ export default function HomePage() {
         </div>
       ) : null}
       {!loading && pokemon ? (
-        <PokemonData
+        <PokemonBox
           name={pokemon.name}
           sprite={pokemon.sprites.front_default}
+          shiny={pokemon.sprites.front_shiny}
+          back={pokemon.sprites.back_default}
+          shinyback={pokemon.sprites.back_shiny}
           abilities={pokemon.abilities}
           stats={pokemon.stats}
+       
           types={pokemon.types} />
       ): null}
     </div>
