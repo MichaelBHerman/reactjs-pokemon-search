@@ -10,16 +10,13 @@ import trainer from './images/trainer1.png';
 function Navbar() {
     return (
         <div className="Navbar">
-            <nav>
-                {/* <img src={trainer} className='Navlogo2'/> */}
-            </nav>
-            {/* <img src={jigglypuff} className='Jigglypuff'/> */}
+           
             <img src={audrey} className='Navlogo1' />
             <img src={navlogo} className='Navlogo'/>
             <HomePage />
-            {/* <nav>
-                <NavLink to='./search'>Search</NavLink>
-            </nav> */}
+            <nav>
+                <NavLink to='./trainercard'>Trainer Card</NavLink>
+            </nav>
            
             
         </div>
