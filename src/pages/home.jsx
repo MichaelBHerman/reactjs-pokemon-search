@@ -1,7 +1,6 @@
 import React from 'react';
 import Search from '../components/Search';
 import { fetchPokemon } from '../services/getPokemon';
-import PokemonData from '../components/PokemonData';
 import { Spinner, Alert } from 'react-bootstrap';
 import PokemonBox from '../components/PokemonBox';
 
@@ -65,6 +64,7 @@ export default function HomePage() {
           shinyback={pokemon.sprites.back_shiny}
           abilities={pokemon.abilities}
           stats={pokemon.stats}
+          id={pokemon.id}
        
           types={pokemon.types} />
       ): null}

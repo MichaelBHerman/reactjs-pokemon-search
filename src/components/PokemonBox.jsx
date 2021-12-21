@@ -29,9 +29,10 @@ function PokemonBox (props) {
     <div class="right">
         <div class="info">
             <h3>{props.name}</h3>
+            <h4>Pokedex # {props.id}</h4>
             <div class="info_data">
                  <div class="data">
-                    <h4>Types</h4>
+                    <h4>Types:</h4>
                     {props.types.map((type, key) => (
                 <div key={key}>
                   <span>{type.type.name}</span>
@@ -39,7 +40,7 @@ function PokemonBox (props) {
               ))}
                  </div>
                  <div class="data">
-                   <h4>Abilities</h4>
+                   <h4>Abilities:</h4>
                    {props.abilities.map((ability, key) => (
                 <div key={key}>
                   <span>{ability.ability.name}</span>
