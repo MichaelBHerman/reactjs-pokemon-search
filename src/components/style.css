@@ -1,6 +1,7 @@
 .Navbar {
     padding: 20px;
     background: #FF4236;
+    
     color: white;
 }
 
@@ -16,6 +17,13 @@
 .Navlogo1 {
     height: 10%;
     width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Navlogo2 {
+    height: 15%;
+    width: 15%;
     display: block;
     margin-left: auto;
     margin-right: auto;
