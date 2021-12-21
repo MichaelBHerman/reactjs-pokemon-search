@@ -59,7 +59,7 @@ function PokemonDisplay () {
       </video>
         {loading ? <h1 style={{ textAlign: 'center' }}>Loading...</h1> : (
           <>
-            <div className="btn">
+            <div className="btn1">
               <button onClick={prev}>Prev</button>
               <button onClick={next}>Next</button>
             </div>
@@ -68,7 +68,7 @@ function PokemonDisplay () {
                 return <Card key={i} pokemon={pokemon} />
               })}
             </div>
-            <div className="btn">
+            <div className="btn1">
               <button onClick={prev}>Prev</button>
               <button onClick={next}>Next</button>
             </div>
