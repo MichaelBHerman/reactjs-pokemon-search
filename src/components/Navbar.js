@@ -4,7 +4,7 @@ import navlogo from './images/pokedex.png';
 import { NavLink } from 'react-router-dom';
 import jigglypuff from "./images/jigglypuff.gif";
 import HomePage from '../pages/home';
-import audrey from './images/audrey2.png';
+import audrey from './images/audreyfont.png';
 import trainer from './images/trainer1.png';
 
 function Navbar() {
